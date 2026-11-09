@@ -1,7 +1,11 @@
 import { SandboxClient } from "@x402s/sdk";
+
 const c = new SandboxClient({ apiUrl: process.env.API_URL!, paymentMode: "mock" });
-const rows: any[] = [];
-for (let i = 0; i < 10; i++) {
+const samples = Number(process.env.SAMPLES ?? 10);
+const paceMs = Number(process.env.PACE_MS ?? 1200);
+const rows: Record<string, any>[] = [];
+
+for (let i = 0; i < samples; i++) {
   const t0 = performance.now();
   const h = await c.createSession({ tier: "short" });
   const paid = performance.now() - t0;
@@ -14,15 +18,33 @@ for (let i = 0; i < 10; i++) {
     t: s.timings,
   });
   await c.destroy(h);
-  await new Promise((r) => setTimeout(r, 1200));
+  await new Promise((r) => setTimeout(r, paceMs));
 }
-const pick = (f: string) => rows.map((r) => r.t?.[f]).filter((v: any) => typeof v === "number");
-const stat = (a: number[]) => a.length ? `n=${a.length} p50=${Math.round([...a].sort((x,y)=>x-y)[Math.floor(a.length/2)])}` : "n=0";
-console.log("client createSession", stat(rows.map(r=>r.paid)));
-console.log("client waitForReady", stat(rows.map(r=>r.ready)));
-console.log("server createdAt->readyAt", stat(rows.map(r=>r.server)));
-for (const f of ["entitlementMs","paymentVerifyMs","paymentSettleMs","warmPickMs","warmRegisterMs","warmClaimCallMs","warmRelabelMs","podCreateCallMs"]) {
-  const a = pick(f); if (a.length) console.log(f, stat(a));
+
+const pick = (f: string) => rows.map((r) => r.t?.[f]).filter((v: unknown) => typeof v === "number");
+const pct = (a: number[], p: number) => {
+  const s = [...a].sort((x, y) => x - y);
+  return Math.round(s[Math.min(s.length - 1, Math.floor((p / 100) * s.length))]);
+};
+const stat = (a: number[]) => (a.length ? `n=${a.length} p50=${pct(a, 50)} p95=${pct(a, 95)}` : "n=0");
+
+const paid = rows.map((r) => r.paid);
+const ready = rows.map((r) => r.ready);
+console.log("client createSession (all)     ", stat(paid));
+console.log("client createSession (steady)  ", stat(paid.slice(1)));
+console.log("client waitForReady (all)      ", stat(ready));
+console.log("server createdAt->readyAt      ", stat(rows.map((r) => r.server)));
+for (const f of [
+  "entitlementMs",
+  "paymentVerifyMs",
+  "paymentSettleMs",
+  "warmPickMs",
+  "warmRegisterMs",
+  "warmClaimCallMs",
+  "warmRelabelMs",
+  "podCreateCallMs",
+]) {
+  const a = pick(f);
+  if (a.length) console.log(f.padEnd(31), stat(a));
 }
-console.log("warmPoolHit", rows.map(r=>r.t?.warmPoolHit).join(","));
-console.log(JSON.stringify(rows[0]?.t ?? {}, null, 1));
+console.log("warmPoolHit", rows.map((r) => r.t?.warmPoolHit).join(","));
