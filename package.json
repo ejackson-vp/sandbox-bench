@@ -7,7 +7,8 @@
     "cluster:startup": "tsx benchmarks/cluster/run.ts startup",
     "cluster:exec": "tsx benchmarks/cluster/run.ts exec",
     "cluster:burst": "tsx benchmarks/cluster/run.ts burst",
-    "cluster:hold": "tsx benchmarks/cluster/run.ts hold"
+    "cluster:hold": "tsx benchmarks/cluster/run.ts hold",
+    "cluster:trace": "tsx benchmarks/cluster/trace.ts"
   },
   "dependencies": {
     "@x402s/sdk": "file:../sandbox/sdk",
