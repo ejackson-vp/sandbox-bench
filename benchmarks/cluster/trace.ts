@@ -28,12 +28,17 @@ const pct = (a: number[], p: number) => {
 };
 const stat = (a: number[]) => (a.length ? `n=${a.length} p50=${pct(a, 50)} p95=${pct(a, 95)}` : "n=0");
 
+const warm = rows.filter((r) => r.t?.warmPoolHit === 1);
+const warmSteady = rows.filter((r, i) => i > 0 && r.t?.warmPoolHit === 1);
 const paid = rows.map((r) => r.paid);
 const ready = rows.map((r) => r.ready);
 console.log("client createSession (all)     ", stat(paid));
 console.log("client createSession (steady)  ", stat(paid.slice(1)));
+console.log("client createSession (warm)    ", stat(warmSteady.map((r) => r.paid)));
 console.log("client waitForReady (all)      ", stat(ready));
+console.log("client to READY (warm)         ", stat(warm.map((r) => r.ready)));
 console.log("server createdAt->readyAt      ", stat(rows.map((r) => r.server)));
+console.log("server ready (warm)            ", stat(warm.map((r) => r.server)));
 for (const f of [
   "entitlementMs",
   "paymentVerifyMs",
