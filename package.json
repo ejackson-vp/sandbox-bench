@@ -1,0 +1,20 @@
+{
+  "name": "sandbox-bench",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "harness": "tsx benchmarks/harness/cli.ts",
+    "cluster:startup": "tsx benchmarks/cluster/run.ts startup",
+    "cluster:exec": "tsx benchmarks/cluster/run.ts exec",
+    "cluster:burst": "tsx benchmarks/cluster/run.ts burst",
+    "cluster:hold": "tsx benchmarks/cluster/run.ts hold"
+  },
+  "dependencies": {
+    "@x402s/sdk": "file:../sandbox/sdk",
+    "@x402s/shared": "file:../sandbox/shared"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

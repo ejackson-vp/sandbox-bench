@@ -1,0 +1,18 @@
+{
+  "runId": "2026-11-08T05-56-34-815Z-cc0b443",
+  "scenario": "density",
+  "finishedAt": "2026-11-08T05:57:48.298Z",
+  "notes": [
+    "2026-11-08T05:56:34.833Z start density; host=Darwin 27.2.0/arm64 docker=14cpu/7.7GiB kvm=false",
+    "2026-11-08T05:56:35.187Z worker allocatable: 13376MiB / 8.0 cores / 110 pods; already requested 330MiB / 0.47 cores",
+    "2026-11-08T05:56:35.187Z per-sandbox request: 125m CPU, 128MiB memory",
+    "2026-11-08T05:56:35.187Z level 1 (idle): cleaning up",
+    "2026-11-08T05:56:58.133Z level 1: ready 1/1, anon/sandbox 8.8 MiB, node 0 B, teardown 152.7ms",
+    "2026-11-08T05:56:58.133Z level 5 (idle): cleaning up",
+    "2026-11-08T05:57:22.270Z level 5: ready 5/5, anon/sandbox 8.6 MiB, node 0 B, teardown 155.8ms",
+    "2026-11-08T05:57:22.270Z level 10 (idle): cleaning up",
+    "2026-11-08T05:57:48.191Z level 10: ready 10/10, anon/sandbox 8.8 MiB, node 0 B, teardown 734.9ms",
+    "2026-11-08T05:57:48.298Z cleanup: swept 0 leftover sandbox pod(s)"
+  ],
+  "exitCode": 0
+}

@@ -1,0 +1,31 @@
+{
+  "runId": "2026-11-08T06-12-03-280Z-cc0b443",
+  "scenario": "startup",
+  "finishedAt": "2026-11-08T06:12:20.198Z",
+  "notes": [
+    "2026-11-08T06:12:03.296Z start startup; host=Darwin 27.2.0/arm64 docker=14cpu/7.7GiB kvm=false",
+    "2026-11-08T06:12:03.296Z startup: 20 warm samples, spec {\"tier\":\"custom\",\"durationSeconds\":60,\"cpuMillis\":500,\"memoryMiB\":512,\"diskMiB\":256}, sequential",
+    "2026-11-08T06:12:04.426Z 1/20: create 622.6ms ready 831.0ms serverReady 546.0ms exec 69.5ms destroy 163.1ms",
+    "2026-11-08T06:12:05.196Z 2/20: create 369.0ms ready 484.1ms serverReady 372.0ms exec 26.5ms destroy 188.0ms",
+    "2026-11-08T06:12:06.011Z 3/20: create 302.1ms ready 578.0ms serverReady 427.0ms exec 37.0ms destroy 134.2ms",
+    "2026-11-08T06:12:07.144Z 4/20: create 539.7ms ready 901.6ms serverReady 706.0ms exec 27.0ms destroy 133.6ms",
+    "2026-11-08T06:12:07.686Z 5/20: create 239.0ms ready 329.8ms serverReady 213.0ms exec 23.8ms destroy 125.9ms",
+    "2026-11-08T06:12:08.481Z 6/20: create 417.4ms ready 521.3ms serverReady 416.0ms exec 30.9ms destroy 174.5ms",
+    "2026-11-08T06:12:09.036Z 7/20: create 247.8ms ready 338.7ms serverReady 267.0ms exec 25.6ms destroy 124.1ms",
+    "2026-11-08T06:12:10.163Z 8/20: create 699.1ms ready 880.7ms serverReady 510.0ms exec 31.0ms destroy 149.5ms",
+    "2026-11-08T06:12:10.909Z 9/20: create 434.7ms ready 527.0ms serverReady 338.0ms exec 24.6ms destroy 127.0ms",
+    "2026-11-08T06:12:11.893Z 10/20: create 485.8ms ready 715.9ms serverReady 584.0ms exec 41.2ms destroy 164.8ms",
+    "2026-11-08T06:12:12.616Z 11/20: create 210.2ms ready 333.7ms serverReady 228.0ms exec 167.3ms destroy 156.3ms",
+    "2026-11-08T06:12:13.190Z 12/20: create 242.0ms ready 331.4ms serverReady 273.0ms exec 25.2ms destroy 151.3ms",
+    "2026-11-08T06:12:14.193Z 13/20: create 572.5ms ready 749.1ms serverReady 653.0ms exec 30.5ms destroy 156.2ms",
+    "2026-11-08T06:12:15.019Z 14/20: create 502.4ms ready 594.3ms serverReady 487.0ms exec 33.4ms destroy 131.3ms",
+    "2026-11-08T06:12:15.742Z 15/20: create 417.6ms ready 508.9ms serverReady 348.0ms exec 24.8ms destroy 127.2ms",
+    "2026-11-08T06:12:16.589Z 16/20: create 404.8ms ready 586.4ms serverReady 517.0ms exec 34.7ms destroy 168.3ms",
+    "2026-11-08T06:12:17.072Z 17/20: create 180.3ms ready 271.0ms serverReady 207.0ms exec 25.2ms destroy 121.9ms",
+    "2026-11-08T06:12:18.100Z 18/20: create 595.4ms ready 808.5ms serverReady 472.0ms exec 26.8ms destroy 128.3ms",
+    "2026-11-08T06:12:19.025Z 19/20: create 493.7ms ready 668.0ms serverReady 580.0ms exec 54.7ms destroy 136.5ms",
+    "2026-11-08T06:12:20.095Z 20/20: create 648.5ms ready 835.4ms serverReady 594.0ms exec 32.7ms destroy 132.7ms",
+    "2026-11-08T06:12:20.198Z cleanup: swept 0 leftover sandbox pod(s)"
+  ],
+  "exitCode": 0
+}

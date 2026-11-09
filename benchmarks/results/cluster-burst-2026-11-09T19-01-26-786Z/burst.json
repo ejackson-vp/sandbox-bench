@@ -1,0 +1,177 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 16279,
+      "serverMs": 418
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 17771,
+      "serverMs": 215
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 16468,
+      "serverMs": 98
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 17448,
+      "serverMs": 297
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 16350,
+      "serverMs": 167
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 18083,
+      "serverMs": 800
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 17596,
+      "serverMs": 224
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 16469,
+      "serverMs": 104
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 16648,
+      "serverMs": 170
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 17397,
+      "serverMs": 402
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 16878,
+      "serverMs": 284
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 18446,
+      "serverMs": 282
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 17984,
+      "serverMs": 263
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 17649,
+      "serverMs": 379
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 18846,
+      "serverMs": 833
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 18559,
+      "serverMs": 569
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 16897,
+      "serverMs": 100
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 18608,
+      "serverMs": 190
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 17050,
+      "serverMs": 226
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 17612,
+      "serverMs": 257
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 18338,
+      "serverMs": 150
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 18644,
+      "serverMs": 266
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 18552,
+      "serverMs": 62
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 19017,
+      "serverMs": 1786
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "readyMs": 18644,
+      "serverMs": 231
+    }
+  }
+]

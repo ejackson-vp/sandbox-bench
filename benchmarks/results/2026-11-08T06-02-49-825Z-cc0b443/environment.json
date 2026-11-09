@@ -1,0 +1,45 @@
+{
+  "capturedAt": "2026-11-08T06:02:49.843Z",
+  "runId": "2026-11-08T06-02-49-825Z-cc0b443",
+  "scenario": "startup",
+  "host": {
+    "platform": "Darwin 27.2.0",
+    "arch": "arm64",
+    "release": "27.2.0",
+    "cpus": 14,
+    "memBytes": 51539607552,
+    "dockerVersion": "29.6.2",
+    "dockerCpus": 14,
+    "dockerMemBytes": 8320954368,
+    "kindVersion": "kind v0.27.0 go1.24.0 darwin/arm64",
+    "kubectlVersion": "v1.37.2",
+    "kvm": false,
+    "gitCommit": "cc0b443",
+    "node": {
+      "name": "talos-h6a-bi6",
+      "cpu": "7500m",
+      "memory": "13041772Ki",
+      "pods": "110",
+      "kernel": "6.18.51-talos",
+      "runtime": "containerd://2.3.5",
+      "internalIp": "10.0.0.214"
+    },
+    "controlNode": {
+      "name": "talos-hcv-rym",
+      "cpu": "7500m",
+      "memory": "12998548Ki",
+      "pods": "110",
+      "kernel": "6.18.51-talos",
+      "runtime": "containerd://2.3.5",
+      "internalIp": "10.0.0.33"
+    },
+    "imageIds": {
+      "ghcr.io/ejackson-vp/sandbox-guest:0.1.0": "ghcr.io/ejackson-vp/sandbox-guest@sha256:c69461c003e9f484b4803d517529d9544b2385584a57fa082ee01b3a0e14fdca"
+    },
+    "apiUrl": "http://10.0.0.33:30080"
+  },
+  "env": {
+    "API_URL": "http://10.0.0.33:30080",
+    "KUBECTL_CONTEXT": "admin@homelab"
+  }
+}

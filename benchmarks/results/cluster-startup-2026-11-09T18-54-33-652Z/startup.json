@@ -1,0 +1,242 @@
+[
+  {
+    "i": 0,
+    "paidMs": 404,
+    "readyMs": 869,
+    "serverMs": 398,
+    "execMs": 133,
+    "destroyMs": 215
+  },
+  {
+    "i": 1,
+    "paidMs": 563,
+    "readyMs": 757,
+    "serverMs": 206,
+    "execMs": 54,
+    "destroyMs": 62
+  },
+  {
+    "i": 2,
+    "paidMs": 601,
+    "readyMs": 956,
+    "serverMs": 310,
+    "execMs": 70,
+    "destroyMs": 68
+  },
+  {
+    "i": 3,
+    "paidMs": 408,
+    "readyMs": 580,
+    "serverMs": 173,
+    "execMs": 112,
+    "destroyMs": 181
+  },
+  {
+    "i": 4,
+    "paidMs": 501,
+    "readyMs": 641,
+    "serverMs": 129,
+    "execMs": 40,
+    "destroyMs": 54
+  },
+  {
+    "i": 5,
+    "paidMs": 535,
+    "readyMs": 763,
+    "serverMs": 137,
+    "execMs": 64,
+    "destroyMs": 248
+  },
+  {
+    "i": 6,
+    "paidMs": 547,
+    "readyMs": 701,
+    "serverMs": 95,
+    "execMs": 84,
+    "destroyMs": 194
+  },
+  {
+    "i": 7,
+    "paidMs": 299,
+    "readyMs": 435,
+    "serverMs": 91,
+    "execMs": 85,
+    "destroyMs": 181
+  },
+  {
+    "i": 8,
+    "paidMs": 220,
+    "readyMs": 451,
+    "serverMs": 149,
+    "execMs": 75,
+    "destroyMs": 204
+  },
+  {
+    "i": 9,
+    "paidMs": 198,
+    "readyMs": 499,
+    "serverMs": 211,
+    "execMs": 68,
+    "destroyMs": 251
+  },
+  {
+    "i": 10,
+    "paidMs": 536,
+    "readyMs": 665,
+    "serverMs": 169,
+    "execMs": 97,
+    "destroyMs": 237
+  },
+  {
+    "i": 11,
+    "paidMs": 657,
+    "readyMs": 798,
+    "serverMs": 148,
+    "execMs": 77,
+    "destroyMs": 206
+  },
+  {
+    "i": 12,
+    "paidMs": 765,
+    "readyMs": 904,
+    "serverMs": 172,
+    "execMs": 67,
+    "destroyMs": 202
+  },
+  {
+    "i": 13,
+    "paidMs": 644,
+    "readyMs": 815,
+    "serverMs": 244,
+    "execMs": 45,
+    "destroyMs": 253
+  },
+  {
+    "i": 14,
+    "paidMs": 288,
+    "readyMs": 539,
+    "serverMs": 256,
+    "execMs": 96,
+    "destroyMs": 260
+  },
+  {
+    "i": 15,
+    "paidMs": 204,
+    "readyMs": 509,
+    "serverMs": 229,
+    "execMs": 88,
+    "destroyMs": 226
+  },
+  {
+    "i": 16,
+    "paidMs": 190,
+    "readyMs": 496,
+    "serverMs": 291,
+    "execMs": 101,
+    "destroyMs": 223
+  },
+  {
+    "i": 17,
+    "paidMs": 214,
+    "readyMs": 562,
+    "serverMs": 276,
+    "execMs": 77,
+    "destroyMs": 237
+  },
+  {
+    "i": 18,
+    "paidMs": 577,
+    "readyMs": 771,
+    "serverMs": 340,
+    "execMs": 63,
+    "destroyMs": 190
+  },
+  {
+    "i": 19,
+    "paidMs": 561,
+    "readyMs": 791,
+    "serverMs": 160,
+    "execMs": 54,
+    "destroyMs": 170
+  },
+  {
+    "i": 20,
+    "paidMs": 361,
+    "readyMs": 487,
+    "serverMs": 106,
+    "execMs": 49,
+    "destroyMs": 181
+  },
+  {
+    "i": 21,
+    "paidMs": 485,
+    "readyMs": 715,
+    "serverMs": 179,
+    "execMs": 50,
+    "destroyMs": 53
+  },
+  {
+    "i": 22,
+    "paidMs": 221,
+    "readyMs": 389,
+    "serverMs": 54,
+    "execMs": 125,
+    "destroyMs": 54
+  },
+  {
+    "i": 23,
+    "paidMs": 446,
+    "readyMs": 644,
+    "serverMs": 284,
+    "execMs": 45,
+    "destroyMs": 54
+  },
+  {
+    "i": 24,
+    "paidMs": 496,
+    "readyMs": 798,
+    "serverMs": 208,
+    "execMs": 53,
+    "destroyMs": 64
+  },
+  {
+    "i": 25,
+    "paidMs": 481,
+    "readyMs": 614,
+    "serverMs": 192,
+    "execMs": 72,
+    "destroyMs": 53
+  },
+  {
+    "i": 26,
+    "paidMs": 555,
+    "readyMs": 948,
+    "serverMs": 328,
+    "execMs": 64,
+    "destroyMs": 201
+  },
+  {
+    "i": 27,
+    "paidMs": 325,
+    "readyMs": 456,
+    "serverMs": 99,
+    "execMs": 54,
+    "destroyMs": 62
+  },
+  {
+    "i": 28,
+    "paidMs": 706,
+    "readyMs": 836,
+    "serverMs": 101,
+    "execMs": 45,
+    "destroyMs": 54
+  },
+  {
+    "i": 29,
+    "paidMs": 426,
+    "readyMs": 758,
+    "serverMs": 259,
+    "execMs": 58,
+    "destroyMs": 54
+  }
+]
